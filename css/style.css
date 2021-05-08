@@ -51,7 +51,7 @@ header h1 {
 }
 
 /* Gallery */
-.galler-container {
+.gallery-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -67,7 +67,6 @@ header h1 {
     position: relative;
     display: flex;
     justify-content: center;
-    transition: all 3s;
 }
 
 
@@ -118,10 +117,12 @@ header h1 {
 
 #light-box .close-control {
     position: relative;
-    left: 460px;
-    top: 20px
+    left: 90%;
+    top: 5%;
 }
 
+
+/* Media Query */
 @media (max-width: 768px) {
     header .header-container {width: 80%;}
 
@@ -131,8 +132,8 @@ header h1 {
     }
 
     #light-box #light-box-content {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 }
 
